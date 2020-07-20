@@ -1,3 +1,55 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: http://jussara.github.io/
+languageCode: pt-br
+title: "Jussara Soares"
+theme: "toha"
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Enable Google Analytics
+# googleAnalytics: UA-xxxxxxxx
+
+# Enable Disqus forum
+# disqusShortname: does-not-exist
+
+# Enable global emoji support
+enableEmoji: true
+
+# Custom parameters
+params:
+  # copyright
+  copyright: © 2020 Copyright.
+
+  # background image of the landing page
+  background: "images/background.jpg"
+
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/jussarasoares/website
+
+  # specify whether you want to write blog post or not
+  # enableBlogPost: true
+
+  # specify the list of custom menus that you want to show in the top navbar.
+  # they will be separated by a divider from the main menus.
+  customMenus:
+  - name: Blog
+    url: https://medium.com/@jussaracruzsoares
+  - name: GitHub
+    url: https://github.com/jussarasoares
+
+  # some information about you
+  author:
+    name: "Jussara Soares"
+    image: "images/avatar.png"
+    # give your some contact information. they will be used in the footer
+    contactInfo:
+      email: "jussara.ac.s@hotmail.com"
+      phone: "+55 47 99708 7050"
+    # a summary of what you do
+    summary:
+    - I am a Developer
+    - I work with JavaScript
+    - I love to work with some fun projects
