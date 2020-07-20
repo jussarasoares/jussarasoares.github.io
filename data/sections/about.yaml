@@ -1,0 +1,85 @@
+# section information
+section:
+  name: About
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+# your designation
+designation: Front-end Developer
+# your company information
+# company:
+#   name: Example Co.
+  # url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/Jussara-Soares.pdf"
+
+# a summary about you
+summary: 'Trabalhando atualmente como desenvolvedora
+front-end freelancer, conheci a programação
+por meio de uma pesquisa que realizei durante
+a pós-graduação. Decidi me aprofundar,
+comecei a pesquisar cada vez mais sobre o
+assunto e me apaixonei. Desde então venho
+estudando ao máximo para aprender cada vez
+mais sobre a área. O que mais amo em
+programar é que sempre há algo novo a se
+aprender.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "jussara.ac.s@hotmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/jussarasoares"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/13963769/jussara-soares?tab=profile"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/jussaraacs/"
+
+# - name: Twitter
+#   icon: "fab fa-twitter"
+#   url: "#"
+
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "#"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: React
+  percentage: 85
+  color: blue
+- name: JavaScript
+  percentage: 90
+  color: yellow
+- name: HTML
+  percentage: 95
+  color: pink
+- name: CSS
+  percentage: 95
+  color: green
+- name: NodeJs
+  percentage: 80
+  color: sky
+- name: GitHub
+  percentage: 95
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
