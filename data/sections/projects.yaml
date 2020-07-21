@@ -13,51 +13,81 @@ buttons:
   filter: "all"
 - name: Professional
   filter: "professional"
-- name: Academic
-  filter: "academic"
+- name: OpenSource
+  filter: "OpenSource"
 - name: Hobby
   filter: "hobby"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: images/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: Tensorflow
-  logo: images/projects/tensorflow.png
+- name: Fashionista
+  logo: images/fashionista.png
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning","academic"]
+  timeline: "Junho - 2020"
+  repo: https://github.com/jussarasoares/fashionista # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Projeto realizado no programa AceleraDev de React da Codenation, com o objetivo de desenvolver uma SPA (Single Page Application) de um e-commerce de moda feminina. 
+  tags: ["professional", "JavaScript", "React"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: images/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
+- name: Versão Pocket Spotify
+  logo: images/spotify.png
+  role: Developer
+  timeline: "Maio - 2020"
+  repo: https://github.com/jussarasoares/react-spotify
   #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+  summary: Versão pocket do Spotify, integrada a Web API oficial, utilizando fluxo implícito de concessão (Implicit Grant Flow) realizada no programa AceleraDev de React da Codenation.
+  tags: ["professional", "JavaScript","React"]
+
+- name: SPA Instagram
+  logo: images/instagram.png
+  role: Developer
+  timeline: "Maio - 2020"
+  repo: https://github.com/jussarasoares/react-instagram
+  #url: ""
+  summary: SPA (Single Page Application) do Instagram realizada durante o programa AceleraDev de React da Codenation.
+  tags: ["professional", "JavaScript","React"]
+
+- name: SPA App de Contatos
+  logo: images/contact.png
+  role: Developer
+  timeline: "Maio - 2020"
+  repo: https://github.com/jussarasoares/app-de-contatos
+  #url: ""
+  summary: SPA (Single Page Application) de um App de contatos com filtros de busca. 
+  
+  tags: ["professional", "JavaScript","React"]
+
+- name: Site Estático de Avaliação de Filmes
+  logo: images/movies.png
+  role: Developer
+  timeline: "Abril - 2020"
+  repo: https://github.com/jussarasoares/aceleradev-movies
+  #url: ""
+  summary: Desenvolvimento da página inicial de um site de avaliação de filmes (IMDB - Internet Movies Database) utilizando apenas HTML5 e CSS3.
+  
+  tags: ["professional", "HTML5","CSS3"]
+
+- name: Tradução da Documentação do React 
+  logo: images/react.png
+  role: Contribuitor
+  timeline: "Desde Nov-2019"
+  repo: "https://github.com/reactjs/pt-BR.reactjs.org"
+  summary: Tradução da documentação no site oficial do React para a língua portuguesa (Brasil). 
+  tags: ["academic","React", "OpenSource"]
+
+- name: Livros Joinville
+  logo: images/books.png
+  role: Manager
+  timeline: "Desde Fev-2020"
+  # repo: https:
+  url: "https://www.instagram.com/livros.joinville/"
+  summary: Página no Instagram para incentivar a leitura e troca de livros.
   tags: ["hobby", "fun"]
 
-- name: Toha
-  logo: images/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+# - name: Toha
+#   logo: images/projects/toha.png
+#   role: Owner
+#   timeline: "Jun 2019 - Present"
+#   repo: https://github.com/hossainemruz/toha
+#   summary: A Hugo theme for personal portfolio.
+#   tags: ["hobby","hugo","theme","professional"]
