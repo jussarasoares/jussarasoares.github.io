@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: Sobre Mim
   enable: true
   weight: 1
   showOnNavbar: true

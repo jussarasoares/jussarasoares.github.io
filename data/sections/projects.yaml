@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Projetos
   enable: true
   weight: 4
   showOnNavbar: true
@@ -9,9 +9,9 @@ section:
 
 # filter buttons
 buttons:
-- name: All
+- name: Todos
   filter: "all"
-- name: Professional
+- name: Profissional
   filter: "professional"
 - name: OpenSource
   filter: "OpenSource"
