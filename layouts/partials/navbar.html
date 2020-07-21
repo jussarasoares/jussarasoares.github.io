@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg top-navbar initial-navbar" id="top-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+      <img src="/images/laptop.png" id="logo">
+      {{- .Site.Title -}}
+    </a>
+    <button
+      class="navbar-toggler navbar-dark"
+      id="navbar-toggler"
+      ,type="button"
+      data-toggle="collapse"
+      data-target="#top-nav-items"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link smooth-scroll" href="#home">Home</a>
+        </li>
+        {{- if .Site.Data.sections }}
+          {{- range sort .Site.Data.sections "section.weight" }}
+            {{ if and (.section.enable) (.section.showOnNavbar)}}
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#{{ replace (lower .section.name) " " "-" }}">{{ .section.name }}</a>
+              </li>
+            {{ end }}
+          {{- end }}
+        {{- end }}
+        {{ $hasCustomMenus:= false }}
+        {{ if and site.Params.customMenus }}
+          {{ if gt (len site.Params.customMenus) 0 }}
+            {{ $hasCustomMenus = true }}
+          {{ end }}
+        {{ end }}
+        {{ if (or site.Params.enableBlogPost $hasCustomMenus) }}
+          <div class="dropdown-divider" id="top-navbar-divider"></div>
+        {{ end }}
+        {{ if site.Params.enableBlogPost }}
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        {{ end }}
+        {{ range site.Params.customMenus }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .url }}">{{ .name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

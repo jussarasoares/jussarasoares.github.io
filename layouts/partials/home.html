@@ -1,0 +1,34 @@
+<div class="container-fluid home" id="home">
+  <div
+    class="background container-fluid"
+    style="background-image: url('{{ if .Site.Params.background }}{{ .Site.Params.background }}{{ else }}/assets/images/default-background.jpg{{ end }}');"
+  ></div>
+  <div class="container content text-center">
+    <img src="{{ if .Site.Params.author.image }}{{ .Site.Params.author.image }}{{ else }}/assets/images/default-avatar.png{{ end }}"
+      class="rounded-circle mx-auto d-block img-fluid"
+    />
+    <h1 class="greeting">
+      {{ if .Site.Params.author.nickname }}
+        {{ .Site.Params.author.nickname }}
+      {{ else if .Site.Params.author.name }}
+        {{ .Site.Params.author.name }}
+      {{ else }}
+        Jane Doe
+      {{ end }}
+    </h1>
+    <div class="typing-carousel">
+      <span id="ityped" class="ityped"></span>
+      <span class="ityped-cursor"></span>
+    </div>
+    <ul id="typing-carousel-data">
+      {{ range .Site.Params.author.summary }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    {{ if .Site.Data.sections }}
+      {{ range first 1 (where (sort .Site.Data.sections "section.weight") ".section.enable" true) }}
+        <a href="#{{ replace (lower .section.name) " " "-" }}"><i class="arrow bounce fa fa-chevron-down"></i></a>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
