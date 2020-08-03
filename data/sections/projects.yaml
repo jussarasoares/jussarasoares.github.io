@@ -25,7 +25,7 @@ projects:
   role: Developer
   timeline: "Junho - 2020"
   repo: https://github.com/jussarasoares/fashionista # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  url: "https://github.com/jussarasoares/fashionista"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Projeto realizado no programa AceleraDev de React da Codenation, com o objetivo de desenvolver uma SPA (Single Page Application) de um e-commerce de moda feminina. 
   tags: ["professional", "JavaScript", "React"]
 
@@ -34,7 +34,7 @@ projects:
   role: Developer
   timeline: "Maio - 2020"
   repo: https://github.com/jussarasoares/react-spotify
-  #url: ""
+  url: "https://github.com/jussarasoares/react-spotify"
   summary: Versão pocket do Spotify, integrada a Web API oficial, utilizando fluxo implícito de concessão (Implicit Grant Flow) realizada no programa AceleraDev de React da Codenation.
   tags: ["professional", "JavaScript","React"]
 
@@ -43,7 +43,7 @@ projects:
   role: Developer
   timeline: "Maio - 2020"
   repo: https://github.com/jussarasoares/react-instagram
-  #url: ""
+  url: "https://github.com/jussarasoares/react-instagram"
   summary: SPA (Single Page Application) do Instagram realizada durante o programa AceleraDev de React da Codenation.
   tags: ["professional", "JavaScript","React"]
 
@@ -52,7 +52,7 @@ projects:
   role: Developer
   timeline: "Maio - 2020"
   repo: https://github.com/jussarasoares/app-de-contatos
-  #url: ""
+  url: "https://github.com/jussarasoares/app-de-contatos"
   summary: SPA (Single Page Application) de um App de contatos com filtros de busca. 
   tags: ["professional", "JavaScript","React"]
   
@@ -70,7 +70,7 @@ projects:
   role: Developer
   timeline: "Abril - 2020"
   repo: https://github.com/jussarasoares/aceleradev-movies
-  #url: ""
+  url: "https://github.com/jussarasoares/aceleradev-movies"
   summary: Desenvolvimento da página inicial de um site de avaliação de filmes (IMDB - Internet Movies Database) utilizando apenas HTML5 e CSS3.
   tags: ["professional", "HTML5","CSS3"]
 
@@ -78,7 +78,8 @@ projects:
   logo: images/react.png
   role: Contribuitor
   timeline: "Desde Nov-2019"
-  repo: "https://github.com/reactjs/pt-BR.reactjs.org"
+  repo: https://github.com/reactjs/pt-BR.reactjs.org
+  url: "https://github.com/reactjs/pt-BR.reactjs.org"
   summary: Tradução da documentação no site oficial do React para a língua portuguesa (Brasil). 
   tags: ["academic","React", "OpenSource"]
 
