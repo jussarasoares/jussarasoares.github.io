@@ -61,7 +61,7 @@ projects:
   role: Developer
   timeline: "Julho - 2020"
   repo: https://github.com/jussarasoares/CookBook
-  url: "cook-book-videos.vercel.app/"
+  url: "https://cook-book-videos.vercel.app/"
   summary: Página com vídeos de receitas, sendo um projeto desenvolvido na imersão React da Alura, baseado na interface da Netflix. 
   tags: ["professional", "JavaScript","React"]
 
