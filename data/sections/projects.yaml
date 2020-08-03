@@ -57,7 +57,7 @@ projects:
   tags: ["professional", "JavaScript","React"]
   
 - name: CookBook
-  logo: images/bread.png
+  logo: images/food.png
   role: Developer
   timeline: "Julho - 2020"
   repo: https://github.com/jussarasoares/CookBook
