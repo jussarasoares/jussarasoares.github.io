@@ -54,7 +54,15 @@ projects:
   repo: https://github.com/jussarasoares/app-de-contatos
   #url: ""
   summary: SPA (Single Page Application) de um App de contatos com filtros de busca. 
+  tags: ["professional", "JavaScript","React"]
   
+- name: CookBook
+  logo: images/bread.png
+  role: Developer
+  timeline: "Julho - 2020"
+  repo: https://github.com/jussarasoares/CookBook
+  url: "cook-book-videos.vercel.app/"
+  summary: Página com vídeos de receitas, sendo um projeto desenvolvido na imersão React da Alura, baseado na interface da Netflix. 
   tags: ["professional", "JavaScript","React"]
 
 - name: Site Estático de Avaliação de Filmes
@@ -64,7 +72,6 @@ projects:
   repo: https://github.com/jussarasoares/aceleradev-movies
   #url: ""
   summary: Desenvolvimento da página inicial de um site de avaliação de filmes (IMDB - Internet Movies Database) utilizando apenas HTML5 e CSS3.
-  
   tags: ["professional", "HTML5","CSS3"]
 
 - name: Tradução da Documentação do React 
