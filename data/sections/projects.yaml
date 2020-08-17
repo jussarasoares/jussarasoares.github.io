@@ -70,6 +70,7 @@ projects:
     role: Developer
     timeline: 'Agosto - 2020'
     repo: https://github.com/jussarasoares/nlw2
+    url: 'https://github.com/jussarasoares/nlw2'
     summary: Projeto realizado na Next Level Week da Rocketseat, com o objetivo de criar uma página que conecta professores e alunos.
     tags: ['professional', 'TypeScript', 'React', 'React Native']
 
