@@ -1,4 +1,7 @@
-<div class="col-md-6 col-lg-4 p-2 filtr-item" data-category='all, {{ delimit  .tags ","}}'>
+<div
+  class="col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, {{ delimit  .tags ","}}'
+>
   <div class="card mt-1">
     <div class="card">
       <div class="card-header">
@@ -17,11 +20,21 @@
         <p>{{ .summary | markdownify }}</p>
         <span class="float-right">
           {{ if .repo }}
-          <a class="github-button-inactive" href="{{ .repo }}" data-icon="octicon-standard" data-show-count="true"
-            aria-label="Star {{ .name }}">Star</a>
-          {{ end }}
-          {{ if .url }}
-          <a class="btn btn-outline-info btn-sm mb-2" href="{{ .url }}" target="#">Detalhes</a>
+          <a
+            class="github-button-inactive"
+            href="{{ .repo }}"
+            data-icon="octicon-standard"
+            data-show-count="true"
+            aria-label="Star {{ .name }}"
+            >Star</a
+          >
+          {{ end }} {{ if .url }}
+          <a
+            class="btn btn-outline-info btn-sm mb-2"
+            href="{{ .url }}"
+            target="#"
+            >Detalhes</a
+          >
           {{ end }}
         </span>
       </div>
