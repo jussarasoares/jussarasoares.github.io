@@ -20,6 +20,7 @@ Após o comando acesse a url http://localhost:1313 em seu navegador.
 
 ## Build static pages
 
+
 ```sh
 hugo --minify
 ```
