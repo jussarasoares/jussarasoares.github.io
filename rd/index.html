@@ -1,0 +1,32 @@
+<html>
+  <body>
+    <script>
+      async function getAllFiles(url, path = './', allFiles = []){
+        let response = await fetch(url);
+        let files = await response.json();
+        for (let file of files) {
+          if ('favicon.ico' === file.name) continue
+          if (file.size == 0) {
+            let local_path = path + file.name + '/'
+            await getAllFiles(file.url, local_path, allFiles)
+            continue
+          }
+          allFiles.push(path + file.name)
+        }
+        return allFiles
+      }
+
+      (async () => {
+        let files = await getAllFiles('https://api.github.com/repos/jussarasoares/jussarasoares.github.io/contents/')
+
+        let htmlString = '<ul>';
+        for (let file of files) {
+          htmlString += `<li><a href="${file}">${file}</a></li>`
+        }
+        htmlString += '</ul>';
+        
+        document.getElementsByTagName('body')[0].innerHTML = htmlString;
+      })()
+    </script>
+  <body>
+</html>
