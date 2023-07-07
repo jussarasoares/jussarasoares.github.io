@@ -17,7 +17,7 @@
       }
 
       (async () => {
-        let files = await getAllFiles('https://api.github.com/repos/jussarasoares/jussarasoares.github.io/contents/')
+        let files = await getAllFiles('https://api.github.com/repos/jussarasoares/jussarasoares.github.io/contents/static/rd')
 
         let htmlString = '<ul>';
         for (let file of files) {
